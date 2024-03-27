@@ -1,13 +1,9 @@
-#!usr/bin/env node
+#! /usr/bin/env node
 
 import inquirer from "inquirer";
 import gradient from 'gradient-string';
 import chalkAnimation from 'chalk-animation';
 //import figlet from 'figlet';
-
-async function validate(){
-
-}
 
 console.log(gradient.fruit("Welcome to CLI Calculator"))
 console.log(gradient.pastel("Developed by:"))
@@ -47,4 +43,3 @@ async function Calc(){ inquirer.prompt([
   })
 }
 Calc()
-

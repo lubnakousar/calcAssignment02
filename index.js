@@ -1,9 +1,7 @@
-#!usr/bin/env node
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import gradient from 'gradient-string';
 //import figlet from 'figlet';
-async function validate() {
-}
 console.log(gradient.fruit("Welcome to CLI Calculator"));
 console.log(gradient.pastel("Developed by:"));
 console.log(gradient.rainbow("Lubna Kousar"));
